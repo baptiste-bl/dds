@@ -33,7 +33,7 @@ jobs:
         poetry install
     - name: Run UnitTests
       run: |
-        poetry run coverage run --source=./argentcontentbaba
+        poetry run coverage run --source=./argentcontentbaba -m  unittest ./tests/main_test.py
         poetry run coverage report -m
     - name: Build package
       if: github.ref == 'refs/heads/main'
