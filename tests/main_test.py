@@ -1,5 +1,5 @@
 import unittest
-from DonneDesSous.main import donne_des_sous, compte_en_banque
+from argentcontentbaba.main import donne_des_sous, compte_en_banque
 
 
 class MyTestCase(unittest.TestCase):
